@@ -7,7 +7,13 @@
     {
         static void Main()
         {
-            Console.WriteLine(Problem001MultiplesOf3And5.SumAllMultiplesOf3Or5(1000));
+            // PrintProblemResult<ulong>(1, Problem001MultiplesOf3And5.SumAllMultiplesOf3Or5(1000));
+            // PrintProblemResult<ulong>(2, Problem002EvenFibonacciNumbers.SumAllEvenFibonacciNumbers(4000000));
+        }
+
+        private static void PrintProblemResult<T>(int problemNum, T result)
+        {
+            Console.WriteLine(string.Format("Answer of problem {0:000} is {1}", problemNum, result));
         }
     }
 }

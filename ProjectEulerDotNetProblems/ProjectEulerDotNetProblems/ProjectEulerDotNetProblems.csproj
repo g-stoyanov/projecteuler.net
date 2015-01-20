@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="From0To100\Problem001MultiplesOf3And5.cs" />
+    <Compile Include="From0To100\Problem002EvenFibonacciNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\FibonacciSequence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
