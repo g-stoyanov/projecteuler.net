@@ -1,16 +1,13 @@
 ﻿namespace ProjectEulerDotNetProblems
 {
+    using ProjectEulerDotNetProblems.From0To100;
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     class Program
     {
         static void Main()
         {
-
+            Console.WriteLine(Problem001MultiplesOf3And5.SumAllMultiplesOf3Or5(1000));
         }
     }
 }
