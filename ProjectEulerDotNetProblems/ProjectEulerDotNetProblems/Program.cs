@@ -9,10 +9,8 @@
         {
             // PrintProblemResult<ulong>(1, Problem001MultiplesOf3And5.SumAllMultiplesOf3Or5(1000));
             // PrintProblemResult<ulong>(2, Problem002EvenFibonacciNumbers.SumAllEvenFibonacciNumbers(4000000));
-            for (ulong i = 0; i < 100; i++)
-            {
-                Console.WriteLine(Problem003LargestPrimeFactor.CalculateLargestPrimeFactorOfTheNumber(i));
-            }
+            PrintProblemResult<ulong>(3, Problem003LargestPrimeFactor.CalculateLargestPrimeFactorOfTheNumber(600851475143));
+            // PrintProblemResult<double>(4, Problem004LargestPalindromeProduct.CalculateLargestPalindromeMadeFromProductOfTwoNumbers(3));
         }
 
         private static void PrintProblemResult<T>(int problemNum, T result)
