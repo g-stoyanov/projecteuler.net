@@ -19,6 +19,30 @@
             return result;
         }
 
+        public static ulong GetNthPrime(int index)
+        {
+            if (index == 1)
+            {
+                return 2;
+            }
+
+            index--;
+
+            for (ulong candidate = 3; candidate <= ulong.MaxValue; candidate += 2)
+            {
+                if (IsPrime(candidate))
+                {
+                    index--;
+                    if (index == 0)
+                    {
+                        return candidate;
+                    }
+                }
+            }
+
+            return 0;
+        }
+
         public static bool IsFactor(ulong number, ulong candidate)
         {
             if (number % candidate == 0)

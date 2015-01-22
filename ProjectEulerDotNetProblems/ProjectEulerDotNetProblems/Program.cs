@@ -13,6 +13,7 @@
             // PrintProblemResult<double>(4, Problem004LargestPalindromeProduct.CalculateLargestPalindromeMadeFromProductOfTwoNumbers(3));
             // PrintProblemResult<ulong>(5, Problem005SmallestMultiple.CalcSmallestPositiveNumEvenlyDivisibleByRangeOfNums(1, 20));
             // PrintProblemResult<ulong>(6, Problem006SumSquareDifference.CalculateSumSquareDiffRangeOfNaturalNumbers(1, 100));
+            // PrintProblemResult<ulong>(7, Problem00710001stPrime.CalculateNthPrimeNumber(10001));
         }
 
         private static void PrintProblemResult<T>(int problemNum, T result)
