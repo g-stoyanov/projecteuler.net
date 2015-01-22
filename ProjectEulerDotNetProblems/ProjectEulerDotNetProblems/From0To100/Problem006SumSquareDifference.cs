@@ -1,6 +1,5 @@
 ﻿namespace ProjectEulerDotNetProblems.From0To100
 {
-
     public static class Problem006SumSquareDifference
     {
         /// <summary>
