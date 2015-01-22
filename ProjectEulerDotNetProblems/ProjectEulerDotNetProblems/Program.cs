@@ -11,7 +11,8 @@
             // PrintProblemResult<ulong>(2, Problem002EvenFibonacciNumbers.SumAllEvenFibonacciNumbers(4000000));
             // !!! PrintProblemResult<ulong>(3, Problem003LargestPrimeFactor.CalculateLargestPrimeFactorOfTheNumber(600851475143));
             // PrintProblemResult<double>(4, Problem004LargestPalindromeProduct.CalculateLargestPalindromeMadeFromProductOfTwoNumbers(3));
-            PrintProblemResult<ulong>(5, Problem005SmallestMultiple.CalcSmallestPositiveNumEvenlyDivisibleByRangeOfNums(1, 20));
+            // PrintProblemResult<ulong>(5, Problem005SmallestMultiple.CalcSmallestPositiveNumEvenlyDivisibleByRangeOfNums(1, 20));
+            // PrintProblemResult<ulong>(6, Problem006SumSquareDifference.CalculateSumSquareDiffRangeOfNaturalNumbers(1, 100));
         }
 
         private static void PrintProblemResult<T>(int problemNum, T result)
