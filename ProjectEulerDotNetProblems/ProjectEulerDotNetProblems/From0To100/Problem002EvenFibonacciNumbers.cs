@@ -1,11 +1,6 @@
 ﻿namespace ProjectEulerDotNetProblems.From0To100
 {
     using ProjectEulerDotNetProblems.Utilities;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public static class Problem002EvenFibonacciNumbers
     {
