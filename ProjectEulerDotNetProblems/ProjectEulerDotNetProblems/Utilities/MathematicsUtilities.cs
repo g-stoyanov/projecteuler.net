@@ -1,6 +1,7 @@
 ﻿namespace ProjectEulerDotNetProblems.Utilities
 {
     using System;
+    using System.Collections.Generic;
 
     public static class MathematicsUtilities
     {
@@ -51,6 +52,28 @@
             }
 
             return false;
+        }
+
+        public static List<ulong> GetNumberFactors(ulong number)
+        {
+            ulong limit = number;
+            List<ulong> factors = new List<ulong>();
+
+            for (ulong i = 1; i < limit; ++i)
+            {
+                if (number % i == 0)
+                {
+                    limit = number / i;
+                    if (limit != i)
+                    {
+                        factors.Add(i);
+                    }
+
+                    factors.Add(limit);
+                }
+            }
+
+            return factors;
         }
 
         public static bool IsPalindrome(ulong number)

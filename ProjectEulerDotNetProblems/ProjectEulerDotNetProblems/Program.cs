@@ -51,7 +51,9 @@
             //  {01, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 01, 89, 19, 67, 48}};
             // PrintProblemResult<ulong>(11, Problem011LargestProductInAGrid.CalculateGreatestProductOfAdjacentNumberAllDirectionsInGrid(problem011InputGrid, 4));
 
+            // PrintProblemResult<ulong>(12, Problem012HighlyDivisibleTriangularNumber.CalculateValueOfTheFirstTriangleNumberToHaveOverNDivisiors(500));
 
+            
         }
 
         private static void PrintProblemResult<T>(int problemNum, T result)

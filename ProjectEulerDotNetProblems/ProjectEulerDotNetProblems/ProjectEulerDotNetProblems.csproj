@@ -52,6 +52,7 @@
     <Compile Include="From0To100\Problem009SpecialPythagoreanTriplet.cs" />
     <Compile Include="From0To100\Problem010SummationOfPrimes.cs" />
     <Compile Include="From0To100\Problem011LargestProductInAGrid.cs" />
+    <Compile Include="From0To100\Problem012HighlyDivisibleTriangularNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FibonacciSequence.cs" />
