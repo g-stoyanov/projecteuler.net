@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,6 +54,7 @@
     <Compile Include="From0To100\Problem010SummationOfPrimes.cs" />
     <Compile Include="From0To100\Problem011LargestProductInAGrid.cs" />
     <Compile Include="From0To100\Problem012HighlyDivisibleTriangularNumber.cs" />
+    <Compile Include="From0To100\Problem013LargeSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FibonacciSequence.cs" />
