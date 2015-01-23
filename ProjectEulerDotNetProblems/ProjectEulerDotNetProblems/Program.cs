@@ -160,6 +160,9 @@
             // PrintProblemResult<string>(13, Problem013LargeSum.GetFirstNDigitsOfTheSumOfGivenNumbers(10, problem013InputArray));
 
             // PrintProblemResult<ulong>(14, Problem014LongestCollatzSequence.CalculateStartingNumberUnderNWithLongestChain(1000000));
+
+            int[,] problem015InputMatrix = new int[21, 21];
+            PrintProblemResult<int>(15, Problem015LatticePaths.CalculateNumbersOfAllPathsInMatrix(problem015InputMatrix));
         }
 
         private static void PrintProblemResult<T>(int problemNum, T result)

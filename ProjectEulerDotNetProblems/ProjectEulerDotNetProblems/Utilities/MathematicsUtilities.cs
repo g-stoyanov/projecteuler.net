@@ -94,5 +94,25 @@
 
             return false;
         }
+
+        public static int GetAllPathsCount(int[,] matrix, int row, int col, int pathsCount)
+        {
+            if ((col + 1) < matrix.GetLength(1))
+            {
+                pathsCount = GetAllPathsCount(matrix, row, col + 1, pathsCount);
+            }
+
+            if ((row + 1) < matrix.GetLength(0))
+            {
+                pathsCount = GetAllPathsCount(matrix, row + 1, col, pathsCount);
+            }
+
+            if ((col + 1) == matrix.GetLength(1) && (row + 1) == matrix.GetLength(0))
+            {
+                pathsCount++;
+            }
+
+            return pathsCount;
+        }
     }
 }

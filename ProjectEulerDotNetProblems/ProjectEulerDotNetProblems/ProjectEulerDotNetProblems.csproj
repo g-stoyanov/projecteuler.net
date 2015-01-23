@@ -56,6 +56,7 @@
     <Compile Include="From0To100\Problem012HighlyDivisibleTriangularNumber.cs" />
     <Compile Include="From0To100\Problem013LargeSum.cs" />
     <Compile Include="From0To100\Problem014LongestCollatzSequence.cs" />
+    <Compile Include="From0To100\Problem015LatticePaths.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FibonacciSequence.cs" />
