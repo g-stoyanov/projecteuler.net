@@ -161,8 +161,8 @@
 
             // PrintProblemResult<ulong>(14, Problem014LongestCollatzSequence.CalculateStartingNumberUnderNWithLongestChain(1000000));
 
-             int[,] problem015InputMatrix = new int[4, 4];
-             PrintProblemResult<int>(15, Problem015LatticePaths.CalculateNumbersOfAllPathsInMatrix(problem015InputMatrix));
+             int[,] problem015InputMatrix = new int[21, 21];
+             PrintProblemResult<BigInteger>(15, Problem015LatticePaths.CalculateNumbersOfAllPathsInMatrix(problem015InputMatrix));
 
             // PrintProblemResult<ulong>(16, Problem016PowerDigitSum.CalculateDigitsSumOfPoweredNum(2, 1000));
         }

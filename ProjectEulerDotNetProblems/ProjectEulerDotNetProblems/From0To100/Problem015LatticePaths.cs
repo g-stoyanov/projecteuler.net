@@ -1,6 +1,7 @@
 ﻿namespace ProjectEulerDotNetProblems.From0To100
 {
     using ProjectEulerDotNetProblems.Utilities;
+    using System.Numerics;
 
     public static class Problem015LatticePaths
     {
@@ -13,9 +14,9 @@
         /// 
         /// How many such routes are there through a 20×20 grid?
         /// </summary>
-        public static int CalculateNumbersOfAllPathsInMatrix(int[,] matrix)
+        public static BigInteger CalculateNumbersOfAllPathsInMatrix(int[,] matrix)
         {
-            int result = MathematicsUtilities.GetAllPathsCount(matrix, 0, 0, 0);
+            BigInteger result = MathematicsUtilities.GetAllPathsCount(matrix, 0, 0, new BigInteger(0));
             return result;
         }
     }

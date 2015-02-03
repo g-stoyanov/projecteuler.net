@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Numerics;
 
     public static class MathematicsUtilities
     {
@@ -95,7 +96,7 @@
             return false;
         }
 
-        public static int GetAllPathsCount(int[,] matrix, int row, int col, int pathsCount)
+        public static BigInteger GetAllPathsCount(int[,] matrix, int row, int col, BigInteger pathsCount)
         {
             if ((col + 1) < matrix.GetLength(1))
             {
